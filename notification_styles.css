@@ -1,0 +1,138 @@
+.body {
+    margin: 0px;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-right: 30px;
+}
+
+.left-side img {
+    height: 40px;
+}
+
+.left-side a {
+    text-decoration: none;
+    color: #2994e1;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-side a:hover {
+    color: white;
+    transition: color 0.2s;
+}
+
+.nav-link {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.nav-link:hover {
+    background-color: #2994e1;
+    transition: background-color 0.2s;
+}
+
+.middle-side {
+    display: flex;
+    flex: 1;
+    max-width: 700px;
+}
+
+.search-box {
+    height: 32px;
+    flex: 1;
+    border-width: 0px;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d4d4d4;
+}
+
+.search-box::placeholder {
+    font-weight: bold;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.right-side img {
+    height: 28px;
+}
+
+/* Content Styles  */
+.content {
+    display: flex;
+}
+
+.content-left-side {
+    width: 120px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: top;
+    box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.3);
+}
+.content-left-side img {
+    height: 28px;
+    margin: 40px;
+    margin-top: 30px;
+}
+.content-right-side {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+   
+    
+}
+.top_right_side {
+    align-items: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
+}
+.top_right_side p {
+    align-items: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom_right_side {
+    display: flex;
+    justify-content: center;
+}
+.upload-section {
+    display: grid;
+    justify-content: center;
+}
+.upload-button {
+    width: 400px;
+    height: 250px;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: none;
+    margin-top: 50px;
+}
